@@ -9,4 +9,5 @@ def main():
     return render_template('HelloWorld_site.html')
 
 if __name__ == "__main__":
+    print('Here will be instructions')
     app.run(host="0.0.0.0", port="8080")

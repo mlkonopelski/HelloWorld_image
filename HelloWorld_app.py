@@ -9,7 +9,7 @@ def main():
     return render_template('HelloWorld_site.html')
 
 def create_empty_csv():
-    pd.DataFrame(columns=['col1', 'col2']).to_csv('Test.csv', index=False)
+    pd.DataFrame(columns=['col1', 'col2']).to_csv('DATA/Test.csv', index=False)
 
 if __name__ == "__main__":
     print('Here will be instructions')
